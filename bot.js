@@ -57,5 +57,5 @@ client.on('message', async message => {
         });
     }
 });
-console.log(process.env.SECRET_KEY);
+
 client.login(process.env.BOT_KEY);
